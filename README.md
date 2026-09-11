@@ -69,6 +69,7 @@ This helped me focus on changes that were relevant to the environment instead of
 I created an IAM Access Analyzer for external access analysis.
 
 **Region:** eu-north-1
+
 **Analyzer:** portfolio-external-access
 
 I then waited for the analyzer to become active and complete its initial analysis.
@@ -135,7 +136,7 @@ This was important because the goal was not to get a perfect Prowler score. The 
 
 ## 9. Evidence
 
-The project contains selected evidence from the inital and verification scans.
+The project contains selected evidence from the initial and verification scans.
 
 ### Initial scan - Access Analyzer not enabled
 
@@ -162,6 +163,4 @@ Key takeaways:
 * how to verify a security change with a second scan,
 * and why scanner results need to be interpreted in the context of the environment.
 
-The main result of this project was not a lower number of Prowler findings.
-
-It was being able to take a security finding from **identification to verified remediation**.
+The goal was not to fix every Prowler finding. I wanted to investigate one finding, apply a relevant fix and verify the result.
